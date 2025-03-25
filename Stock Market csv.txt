@@ -1,0 +1,38 @@
+------ Problem Statement:
+You are provided with a stock dataset (infy_stock.csv) containing historical stock price data for a major Indian company. Your task is to analyze the data using Python libraries such as pandas, numpy, matplotlib, and seaborn. Based on your analysis, answer the following questions and perform the required tasks. 
+
+------ Dataset (infy_stock.csv):
+Columns:
+- Date: Date of the stock price (YYYY-MM-DD)
+- Open: Opening price of the stock
+- High: Highest price of the stock during the day
+- Low: Lowest price of the stock during the day
+- Close: Closing price of the stock
+- Adj Close: Adjusted closing price (after stock splits, dividends)
+- Volume: Number of shares traded
+
+------ Assignment Tasks:
+1. Load and Inspect the Data:
+   - Load the dataset using pandas.
+   - Display the first 10 rows of the dataset.
+   - Check if there are any missing values and handle them appropriately.
+   
+2. Data Visualization:
+   - Plot the closing price over time.
+   - Plot a candlestick chart for the stock prices (using mplfinance or another library of your choice).
+   
+3. Statistical Analysis:
+   - Calculate the daily return percentage. (Formula: ((Close - Open) / Open) * 100)
+   - Calculate the average and median of daily returns.
+   - Calculate the standard deviation of the closing prices.
+   
+4. Moving Averages:
+   - Calculate the 50-day and 200-day moving averages of the stock's closing price and plot them.
+   
+5. Volatility Analysis:
+   - Plot the volatility of the stock using the rolling standard deviation (30-day window).
+   
+6. Trend Analysis:
+   - Identify and mark the bullish and bearish trends based on moving averages (50-day vs. 200-day).
+   
+Checking 23 Oct 2024
